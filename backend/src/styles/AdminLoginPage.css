@@ -1,0 +1,98 @@
+/* === Admin Login Page (Styled like Main Login Page) === */
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+  background: linear-gradient(to right, #eef2f3, #f4f4f4);
+}
+
+.login-container {
+  display: flex;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+  padding: 40px;
+  background-color: #f9f9f9;
+}
+
+.login-left {
+  display: none; /* no image panel for admin, but structure preserved */
+}
+
+.login-right {
+  background-color: #ffffff;
+  padding: 40px;
+  max-width: 420px;
+  width: 100%;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+}
+
+.login-right h2 {
+  text-align: center;
+  margin-bottom: 16px;
+  font-weight: 600;
+  color: #333;
+}
+
+.login-right p {
+  text-align: center;
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 24px;
+}
+
+.login-right form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.input-group {
+  display: flex;
+  align-items: center;
+  background-color: #fafafa;
+  border: 1px solid #ccc;
+  padding: 10px 12px;
+  border-radius: 8px;
+}
+
+.input-group .icon {
+  margin-right: 10px;
+}
+
+.input-group input {
+  border: none;
+  outline: none;
+  flex: 1;
+  background: transparent;
+  font-size: 16px;
+}
+
+.login-btn {
+  background-color: #007bff;
+  color: white;
+  padding: 12px;
+  font-size: 16px;
+  font-weight: 500;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.login-btn:hover {
+  background-color: #0056b3;
+}
+
+@media (max-width: 768px) {
+  .login-container {
+    padding: 20px;
+  }
+
+  .login-right {
+    padding: 30px 20px;
+  }
+}

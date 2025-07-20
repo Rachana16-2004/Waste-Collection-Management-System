@@ -1,0 +1,77 @@
+.pickup-form-container {
+  position: relative;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Segoe UI', sans-serif;
+  padding: 2rem;
+  overflow: hidden;
+}
+
+/* Background image with blur */
+.pickup-form-container::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background-image: url('a.png'); /* Ensure this image is in public/ */
+  background-size: cover;
+  background-position: center;
+  filter: blur(8px);
+  z-index: 0;
+}
+
+/* Foreground content */
+.pickup-form-container h2,
+.pickup-form {
+  position: relative;
+  z-index: 1;
+}
+
+.pickup-form-container h2 {
+  font-size: 36px;
+  margin-bottom: 2rem;
+  color: #ffffff;
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.6);
+}
+
+.pickup-form {
+  background-color: rgba(255, 255, 255, 0.92);
+  padding: 2rem 2.5rem;
+  border-radius: 12px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.2);
+  width: 100%;
+  max-width: 500px;
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+
+.pickup-form input {
+  padding: 12px 16px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+  transition: border-color 0.3s ease;
+}
+
+.pickup-form input:focus {
+  outline: none;
+  border-color: #26a69a;
+}
+
+.pickup-form button {
+  padding: 12px 20px;
+  font-size: 18px;
+  background-color: #009688;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.pickup-form button:hover {
+  background-color: #00796b;
+}
