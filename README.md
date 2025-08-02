@@ -47,7 +47,7 @@ npm install
 npm run dev
 Configure your .env file (MongoDB URI, JWT secret, etc.)
 
-3. Setup Frontend
+## 3. Setup Frontend
 cd ../app
 npm install
 npm start
@@ -56,3 +56,4 @@ users – for storing user information
 admins – for admin credentials
 requests – for storing user pickup requests
 pickuprequests – for detailed pickup handling
+
