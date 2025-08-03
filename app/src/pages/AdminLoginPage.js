@@ -16,8 +16,6 @@ function AdminLoginPage() {
   };
   return (
     <div className="login-container">
-     
-    
       <div className="login-right">
         <h2>Admin Login</h2>
         <p>Sign in to access the admin panel 🔐</p>
