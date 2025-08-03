@@ -6,10 +6,8 @@ function CreateAccount() {
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
   const navigate = useNavigate('users');
-
 const handleSignup = async (e) => {
   e.preventDefault();
-
   try {
     const response = await fetch('http://localhost:5000/api/signup', {
       method: 'POST',
@@ -32,8 +30,6 @@ const handleSignup = async (e) => {
     console.error(error);
   }
 };
-
-
   return (
     <div className="login-container">
       <div className="login-left">
