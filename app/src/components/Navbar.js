@@ -10,7 +10,6 @@ function Navbar() {
     navigate('/');
   };
 
-  
   return (
     <nav className="navbar">
       <Link to="/dashboard">Dashboard</Link>
