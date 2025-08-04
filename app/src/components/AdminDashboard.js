@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from 'react';
 function AdminDashboard() {
   const [requests, setRequests] = useState([]);
-
   
   useEffect(() => {
     fetch('http://localhost:5000/api/requests')
