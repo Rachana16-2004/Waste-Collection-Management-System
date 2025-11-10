@@ -1,7 +1,7 @@
   # ♻️ Waste Collection Management System
  
 A full-stack web application designed to manage recyclable waste collection requests efficiently. The system enables  users to register, request waste pickups, and track status updates via a secure dashboard. Admins can monitor, assign, and manage pickup requests.
-     
+      
 ### 👤 User 
 - User registration & login
 - Dashboard with profile information
@@ -56,6 +56,7 @@ users – for storing user information
 admins – for admin credentials
 requests – for storing user pickup requests
 pickuprequests – for detailed pickup handling
+
 
 
 
