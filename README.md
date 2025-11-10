@@ -7,7 +7,7 @@ A full-stack web application designed to manage recyclable waste collection requ
 - Dashboard with profile information
 - Create pickup request forms   
 - Track request status  
-- Update/Delete requests  
+- Update/Delete requests   
         
 ### 🛠️ Admin 
 - Admin login with secure authentication  
@@ -56,6 +56,7 @@ users – for storing user information
 admins – for admin credentials
 requests – for storing user pickup requests
 pickuprequests – for detailed pickup handling
+
 
 
 
